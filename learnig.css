@@ -1,3 +1,28 @@
 h5 {
     color: aqua;
 }
+
+p {
+    font-family: cursive;
+}
+
+#welcome{
+    color: brown;
+}
+
+.text{
+    color: darkorange;
+}
+
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*
+Simple selector types
+    -Tags selector
+    -Id selector
+    -class selector
+    -universal seletor
+    -grouping selector
+*/
