@@ -19,7 +19,6 @@ p {
 }
 
 
-
 /*
 Simple selector types
     -Tags selector
@@ -31,5 +30,38 @@ Simple selector types
 
 
 /*
+Part-2 of css coding
+*/
+
+#heading {
+    color: rgba(156, 103, 109, 0.817)
+}
+
+#coding {
+    color: hsla(31, 30, 52, 0.7)
+}
+
+#fadecolor {
+    color:darkorange;
+    opacity: 50%
+}
+
+backcolor {
+    background-image: url(image/19143.jpg);
+}
+
+body{
+    
+  /*  background-image: url(image/19143.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+  */
+  background:  url(image/19143.jpg) no-repeat left top fixed                         ;  
+}
+
+
+
+
 
 
