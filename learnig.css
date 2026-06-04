@@ -52,13 +52,41 @@ backcolor {
 
 body{
     
-  /*  background-image: url(image/19143.jpg);
+    background-image: url(image/19143.jpg);
     background-repeat: no-repeat;
     background-position: left top;
-    background-attachment: fixed;
-  */
-  background:  url(image/19143.jpg) no-repeat left top fixed                         ;  
+    background-attachment: fixed; 
 }
+
+/*
+The border of css program
+*/
+
+h1 {
+    border-style: double ;
+    border-width: 6px 4px;
+    border-color: gold orange;
+    border-radius: 6px 7px;
+    
+}
+  /*top right bottom left*/
+
+  /*
+  The margen and padinges
+  */
+
+p {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+  /*  margin:auto;
+    width: 75px;
+    border: 30px solid;*/
+}
+
+
 
 
 
