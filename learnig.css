@@ -75,15 +75,35 @@ h1 {
   The margen and padinges
   */
 
+
 p {
     margin-top: 30px;
     margin-bottom: 45px;
     margin-left: 25px;
     margin-right: 25px;
 
-  /*  margin:auto;
+  /*  padding: 34px 45px;
+    margin: 20px;
     width: 75px;
     border: 30px solid;*/
+} 
+
+/*
+height and width
+*/
+
+b {
+   /* border: 2px double;
+    height: 75px;
+    width: 35px;*/
+
+    border: 3px dotted;
+    height: 30px;
+    width: 20%;
+    max-height: 35px;
+    max-width: 20%;
+    min-height: 55px;
+    min-width: 45%;
 }
 
 
