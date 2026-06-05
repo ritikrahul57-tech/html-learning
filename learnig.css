@@ -10,7 +10,7 @@ p {
     color: brown;
 }
 
-.text{
+#text{
     color: darkorange;
 }
 
@@ -106,6 +106,28 @@ b {
     min-width: 45%;
 }
 
+/*
+paragraph tags
+*/
+
+h4 {
+   /* text-align: center;*/
+   /*text-decoration: line-through;*/
+   /*text-decoration: overline;*/
+      /*text-shadw: 5px 5px 5px red */
+
+   text-decoration-line: underline;
+   text-decoration-color: gold;
+   text-decoration-style: double;
+   text-decoration-thickness: 2.5px ;
+   text-transform: lowercase;
+   line-height: 25px;
+   word-spacing: 12px;
+}
+
+a {
+    text-decoration: none;
+}
 
 
 
