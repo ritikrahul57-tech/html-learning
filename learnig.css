@@ -55,7 +55,7 @@ body{
     background-image: url(image/19143.jpg);
     background-repeat: no-repeat;
     background-position: left top;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
 }
 
 /*
@@ -129,9 +129,50 @@ a {
     text-decoration: none;
 }
 
+/*
+Font family
+*/
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 20px;    /* em=16px*/
+
+    /* font: oblique 12px bolder monospace;*/
+}
+
+/*
+Tables
+*/
 
 
+table,td {
+    border: 3px solid;
+    vertical-align: bottom;
+    padding: 10px;
+}
 
+thead td {
+        text-align: center;
+}
+
+table {
+    width: 45%;
+}
+
+tr {
+    height: 30px;
+}
+
+/*tr:hover{
+    background-color:goldenrod;
+}*/
+
+tr:nth-child(even) {
+    background-color: gold;
+}
 
 
 
