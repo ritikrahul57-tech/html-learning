@@ -152,6 +152,7 @@ table,td {
     border: 3px solid;
     vertical-align: bottom;
     padding: 10px;
+    border-collapse: collapse;
 }
 
 thead td {
@@ -175,4 +176,50 @@ tr:nth-child(even) {
 }
 
 
+/*
+Selectors and class
+*/
+
+.content {
+   /* border: 5px double gold ;
+    opacity: 0.7;
+    border-radius: 15px;*/
+}
+
+.para {
+  /*  background-color: orange !important;*/
+
+ /* width: 18px;
+  height: 20px;*/
+  position: relative;
+  left: 20px;
+  border: 3px solid gold;
+  background-color:darkmagenta;
+  /*overflow: hidden;*/
+
+   /*position: fixed;
+   widht: 100%;
+   height: 100%;
+   border: 3px solid gold;
+  background-color:darkmagenta;
+  z-index: -1;*/
+
+}
+
+#paragraph {
+    background-color: cyan ;
+}
+
+img {
+    widht: 90px;
+    height: 90px;
+    float: none;
+}
+
+.disp {
+    display: inline;
+    widht:90px;
+    height:auto;
+    background-color:hotpink 
+}
 
